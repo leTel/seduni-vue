@@ -21,18 +21,24 @@
       </v-btn>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer v-model="drawer" width="300" absolute temporary>
       <v-list nav>
         <v-list-item-group class="d-flex justify-center">
           <v-img
             src="../assets/img/logo.png"
-            max-height="50"
-            max-width="50"
+            max-height="70px"
+            max-width="70px"
             contain
           />
           <h1 class="font-weight-regular mt-3 mb-5">
             SEDUNI
           </h1>
+        </v-list-item-group>
+
+        <v-divider></v-divider>
+
+        <v-list-item-group>
+          <menu-list-item :key="homeLink.to" :link="homeLink" />
         </v-list-item-group>
 
         <v-divider></v-divider>
@@ -69,6 +75,11 @@ export default {
   data() {
     return {
       drawer: false,
+      homeLink: {
+        title: 'Accueil',
+        to: '/',
+        icon: 'mdi-home-variant-outline'
+      },
       primaryLinks: [
         {
           title: 'Histoire',
@@ -83,11 +94,6 @@ export default {
         { title: 'Combat', to: 'fight', icon: 'mdi-sword-cross' }
       ],
       secondaryLinks: [
-        {
-          title: 'Accueil',
-          to: '/',
-          icon: 'mdi-home-variant-outline'
-        },
         {
           title: 'Contact',
           to: 'contact',
