@@ -5,7 +5,7 @@
     <inline-image-card
       position="left"
       title="L'histoire de nos ancètres"
-      :image-src="require('../assets/img/history_card.jpg')"
+      :image-src="require('@/assets/img/history_card.jpg')"
     >
       <p>
         La recherche historique constitue l'activité centrale de notre
@@ -20,16 +20,16 @@
       </p>
 
       <p>
-        A partir des informations récoltées, nous pouvons procéder à la création
-        de divers objects dont les armes et armures que nous utilisons durant
-        nos entraînements.
+        A partir des informations récoltées, nous pouvons procéder à la
+        reproduction de divers objets dont les armes et armures que nous
+        utilisons durant nos entraînements.
       </p>
     </inline-image-card>
 
     <inline-image-card
       position="right"
       title="Période et zone géographique"
-      :image-src="require('../assets/img/la_tene_map.png')"
+      :image-src="require('@/assets/img/la_tene_map.png')"
     >
       <p>
         La culture celte s'étend sur plus de 1500 ans et s'est répandue sur une
@@ -49,12 +49,28 @@
         diversifiées.
       </p>
     </inline-image-card>
+    <inline-image-card
+      position="left"
+      title="Les sources"
+      :image-src="require('@/assets/img/library.jpg')"
+    >
+      <p>
+        Les Celtes n'utilisant que très peu l'écriture, les source historiques
+        sont rares. Nous pouvons toutefois nous baser sur le travail des
+        historiens, linguistes, archéologues et autres afin d'en apprendre
+        d'avantage sur les Celtes.
+      </p>
+      <p>
+        La
+        <b>
+          visite de musées, la participations à des conférences et l'étude des
+          ouvrages
+        </b>
+        de notre
+        <router-link :to="{ name: 'library' }">bibliothèque</router-link> sont
+        les principales activités liées à la recherche historique que propose
+        notre association.
+      </p></inline-image-card
+    >
   </v-container>
 </template>
-
-<script>
-import InlineImageCard from '@/components/InlineImageCard.vue'
-export default {
-  components: { InlineImageCard }
-}
-</script>

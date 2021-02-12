@@ -5,7 +5,7 @@
 
       <router-link :to="{ name: 'home' }">
         <v-img
-          src="../assets/img/logo.png"
+          :src="require('@/assets/img/logo.png')"
           max-height="50"
           max-width="50"
           contain
@@ -21,11 +21,11 @@
       </v-btn>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" width="300" absolute temporary>
+    <v-navigation-drawer v-model="drawer" width="300" temporary app>
       <v-list nav>
         <v-list-item-group class="d-flex justify-center">
           <v-img
-            src="../assets/img/logo.png"
+            :src="require('@/assets/img/logo.png')"
             max-height="70px"
             max-width="70px"
             contain
@@ -95,14 +95,24 @@ export default {
       ],
       secondaryLinks: [
         {
+          title: 'Qui sommes-nous ?',
+          to: 'about',
+          icon: 'mdi-account-multiple-outline'
+        },
+        {
+          title: 'Devenir membre',
+          to: 'becoming-member',
+          icon: 'mdi-account-multiple-plus-outline'
+        },
+        {
+          title: 'Bibliothèque',
+          to: 'library',
+          icon: 'mdi-bookshelf'
+        },
+        {
           title: 'Contact',
           to: 'contact',
           icon: 'mdi-at'
-        },
-        {
-          title: 'Qui sommes-nous ?',
-          to: 'about',
-          icon: 'mdi-account-group-outline'
         }
       ]
     }

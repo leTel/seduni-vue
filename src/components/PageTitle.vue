@@ -1,7 +1,7 @@
 <template>
   <v-row class="my-5">
     <v-col>
-      <h1 class="text-center text-uppercase">
+      <h1 class="text-center text-uppercase font-weight-regular">
         <v-icon left x-large color="primary" class="mr-5">
           {{ icon }}
         </v-icon>

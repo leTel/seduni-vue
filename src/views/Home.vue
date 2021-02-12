@@ -1,10 +1,6 @@
 <template>
   <v-container>
-    <v-row class="my-5">
-      <v-col>
-        <v-img max-height="300" contain src="../assets/img/full_logo.png" />
-      </v-col>
-    </v-row>
+    <page-title title="Association SEDUNI" />
 
     <v-row class="my-3">
       <v-col class="text-center">
@@ -36,8 +32,10 @@
       </v-col>
     </v-row>
 
+    <v-divider />
+
     <v-row class="my-3">
-      <v-col v-for="card in secondaryCards" :key="card.title" cols="12" md="6">
+      <v-col v-for="card in secondaryCards" :key="card.title" cols="12" md="4">
         <v-hover v-slot:default="{ hover }">
           <v-card :to="card.to" :elevation="hover ? 16 : 2">
             <v-card-title v-text="card.title"></v-card-title>
@@ -84,6 +82,10 @@ export default {
         {
           title: 'Qui sommes-nous ?',
           to: 'about'
+        },
+        {
+          title: 'Devenir membre',
+          to: 'becoming-member'
         },
         {
           title: 'Nous contacter',

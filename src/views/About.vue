@@ -77,10 +77,3 @@
     >
   </v-container>
 </template>
-
-<script>
-import InlineImageCard from '@/components/InlineImageCard.vue'
-export default {
-  components: { InlineImageCard }
-}
-</script>

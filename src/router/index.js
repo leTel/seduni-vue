@@ -31,9 +31,19 @@ const routes = [
     component: () => import('@/views/About.vue')
   },
   {
+    path: '/becoming-member',
+    name: 'becoming-member',
+    component: () => import('@/views/BecomingMember.vue')
+  },
+  {
     path: '/contact',
     name: 'contact',
     component: () => import('@/views/Contact.vue')
+  },
+  {
+    path: '/library',
+    name: 'library',
+    component: () => import('@/views/Library.vue')
   },
   {
     path: '/login',

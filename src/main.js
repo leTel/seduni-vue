@@ -6,8 +6,10 @@ import { firestorePlugin } from 'vuefire'
 import vuetify from './plugins/vuetify'
 
 import PageTitle from '@/components/PageTitle.vue'
+import InlineImageCard from '@/components/InlineImageCard.vue'
 
 Vue.component('PageTitle', PageTitle)
+Vue.component('InlineImageCard', InlineImageCard)
 
 Vue.config.productionTip = false
 
