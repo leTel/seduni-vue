@@ -13,12 +13,6 @@
       </router-link>
 
       <v-toolbar-title class="mr-5">SEDUNI</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn text small icon :to="{ name: 'login' }" class="mx-2">
-        <v-icon color="primary">mdi-login</v-icon>
-      </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" width="300" temporary app>

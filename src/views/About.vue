@@ -5,7 +5,7 @@
     <inline-image-card
       position="left"
       title="Notre association"
-      :image-src="require('../assets/img/ag.jpg')"
+      :img-src="require('@/assets/img/ag.jpg')"
     >
       <p>
         L'association "SEDUNI" a été créé le 8 août 2020 à Ayent lors d'une
@@ -25,7 +25,7 @@
     <inline-image-card
       position="right"
       title="Notre nom"
-      :image-src="require('../assets/img/tribes_map.jpg')"
+      :img-src="require('@/assets/img/tribes_map.jpg')"
     >
       <p>
         Le nom "SEDUNI" est celui de la tribu qui peuplait le Valais central
@@ -46,7 +46,7 @@
     <inline-image-card
       title="Nos activités"
       position="left"
-      :image-src="require('../assets/img/activities.jpg')"
+      :img-src="require('@/assets/img/activities.jpg')"
     >
       <p>
         L'association "SEDUNI" est investie dans trois activités principales:

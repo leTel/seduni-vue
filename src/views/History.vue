@@ -5,7 +5,7 @@
     <inline-image-card
       position="left"
       title="L'histoire de nos ancètres"
-      :image-src="require('@/assets/img/history_card.jpg')"
+      :img-src="require('@/assets/img/history_card.jpg')"
     >
       <p>
         La recherche historique constitue l'activité centrale de notre
@@ -29,7 +29,7 @@
     <inline-image-card
       position="right"
       title="Période et zone géographique"
-      :image-src="require('@/assets/img/la_tene_map.png')"
+      :img-src="require('@/assets/img/la_tene_map.png')"
     >
       <p>
         La culture celte s'étend sur plus de 1500 ans et s'est répandue sur une
@@ -52,7 +52,7 @@
     <inline-image-card
       position="left"
       title="Les sources"
-      :image-src="require('@/assets/img/library.jpg')"
+      :img-src="require('@/assets/img/library.jpg')"
     >
       <p>
         Les Celtes n'utilisant que très peu l'écriture, les source historiques
