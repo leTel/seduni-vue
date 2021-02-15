@@ -2,10 +2,7 @@
   <v-container>
     <page-title icon="mdi-bookshelf" title="Bibliothèque" />
 
-    <inline-image-card
-      position="left"
-      title="Les livres"
-    >
+    <inline-image-card position="left" title="Les livres">
       <p>
         La bibliothèque des SEDUNI est composée d'ouvrage historique et
         contemporains. Nous essayons de découvrir toutes les facettes de cette
