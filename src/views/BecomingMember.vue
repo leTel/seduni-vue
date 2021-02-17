@@ -34,7 +34,7 @@
       <p>
         D'abord lisez nos
         <a :href="`${publicPath}statuts.pdf`" download>
-          status
+          statuts
         </a>
         et notre
         <a :href="`${publicPath}reglement_interne.pdf`" download>
