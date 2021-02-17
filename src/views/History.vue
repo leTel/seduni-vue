@@ -16,11 +16,11 @@
         <b>
           connaître au mieux la vie des membres de la tribu des SEDUNI
         </b>
-        qui viaient dans la région sédunoise.
+        qui vivaient dans la région sédunoise.
       </p>
 
       <p>
-        A partir des informations récoltées, nous pouvons procéder à la
+        À partir des informations récoltées, nous pouvons procéder à la
         reproduction de divers objets dont les armes et armures que nous
         utilisons durant nos entraînements.
       </p>
@@ -38,7 +38,7 @@
       <p>
         Dans le cadre de nos recherches, nous essayons de nous focaliser sur la
         <b>
-          région des Alpes durant la période dite de "La Tène moyenne"
+          région des Alpes durant la période dite du "La Tène moyen"
         </b>
         qui représente une période allant de -300 à -100 BCE.
       </p>
@@ -55,9 +55,9 @@
       :img-src="require('@/assets/img/library.jpg')"
     >
       <p>
-        Les Celtes n'utilisant que très peu l'écriture, les source historiques
-        sont rares. Nous pouvons toutefois nous baser sur le travail des
-        historiens, linguistes, archéologues et autres afin d'en apprendre
+        Les Celtes n'ayant que très peu utilisé l'écriture, les sources
+        historiques sont rares. Nous pouvons toutefois nous baser sur le travail
+        des historiens, linguistes, archéologues et autres afin d'en apprendre
         d'avantage sur les Celtes.
       </p>
       <p>

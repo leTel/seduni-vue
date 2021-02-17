@@ -4,7 +4,7 @@
 
     <inline-image-card position="left" title="Les livres">
       <p>
-        La bibliothèque des SEDUNI est composée d'ouvrage historique et
+        La bibliothèque des SEDUNI est composée d'ouvrages historiques et
         contemporains. Nous essayons de découvrir toutes les facettes de cette
         époque.
       </p>

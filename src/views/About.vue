@@ -8,8 +8,8 @@
       :img-src="require('@/assets/img/ag.jpg')"
     >
       <p>
-        L'association "SEDUNI" a été créé le 8 août 2020 à Ayent lors d'une
-        assemblé générale constitutive publique.
+        L'association "SEDUNI" a été créée le 8 août 2020 à Ayent lors d'une
+        assemblée générale constitutive publique.
       </p>
       <p>
         À l’origine du projet, il y a quatre personnes passionnées d'histoire et
@@ -17,8 +17,9 @@
         et Laurent Lugon Moulin.
       </p>
       <p>
-        Les SEDUNI ont pour objectif de transmettre et préserver la culture des
-        Celtes qui peuplaient l’Europe.
+        Les SEDUNI ont pour objectif de
+        <b>transmettre et préserver la culture des Celtes</b> qui peuplaient
+        l’Europe.
       </p>
     </inline-image-card>
 
@@ -28,7 +29,7 @@
       :img-src="require('@/assets/img/tribes_map.jpg')"
     >
       <p>
-        Le nom "SEDUNI" est celui de la tribu qui peuplait le Valais central
+        Le nom "SEDUNI" est celui du <b>peuple établi dans le Valais central</b>
         durant la période dite de "La Tène".
       </p>
       <p>
@@ -38,8 +39,8 @@
       </p>
       <p>
         Les SEDUNI repoussèrent la tentative d'invasion de Jules César à
-        Octodurum (Martigny) avec l'aide de la tribu des VERAGRI gardant ainsi
-        le contrôle des cols des Alpes.
+        Octodurum (Martigny) avec l'aide des VERAGRI gardant ainsi le contrôle
+        des cols des Alpes.
       </p>
     </inline-image-card>
 
@@ -57,7 +58,7 @@
         </router-link>
         : La recherche et l’analyse de sources historiques ou contemporaines ont
         pour but de mener à une meilleure compréhension de la culture celte en
-        Europe durant le La Tène moyen (300 à 100 BCE).
+        Europe durant la période dite du "La Tène moyen" (300 à 100 BCE).
       </p>
       <p>
         <router-link :to="{ name: 'craft' }">

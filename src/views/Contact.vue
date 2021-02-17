@@ -22,7 +22,7 @@
           <v-card-text>
             <p>
               Si vous préférez les e-mails, écrivez-nous à l'adresse
-              <a href="mailto: info.seduni@gmail.com" class="text-large">
+              <a href="mailto: info.seduni@gmail.com">
                 info.seduni@gmail.com
               </a>
             </p>

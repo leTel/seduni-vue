@@ -20,7 +20,7 @@
       :img-src="require('@/assets/img/armor.jpg')"
     >
       <p>
-        En plus des <b>armures historiques</b> tels que la cotte de maille,
+        En plus des <b>armures historiques</b> telles que la cotte de maille,
         l'armure de cuir ou le linothorax, nous utilisons des
         <b>protections modernes</b> afin d'assurer la sécurité des pratiquants.
       </p>
@@ -58,7 +58,7 @@
       </p>
       <p>
         Avec cette activité, l'association cherche à se
-        <b>raprocher au mieux des techniques de combats de l'époque</b>. Pour se
+        <b>raprocher au mieux des techniques de combat de l'époque</b>. Pour ce
         faire, nous pratiquons les combats avec des armes en métal et nous nous
         entraînons en extérieur toute l'année.
       </p>
