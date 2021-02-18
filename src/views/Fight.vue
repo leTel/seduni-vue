@@ -43,7 +43,7 @@
 
     <inline-image-card
       position="right"
-      title="Phylosophie"
+      title="Philosophie"
       :img-src="require('@/assets/img/fight.jpg')"
     >
       <p>
