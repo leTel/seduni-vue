@@ -22,7 +22,7 @@
       </p>
       <p>
         Si vous répondez à une ou à toutes ces questions positivement, alors
-        <b>notre association est faîte pour vous !</b>
+        <b>notre association est faite pour vous !</b>
       </p>
     </inline-image-card>
 

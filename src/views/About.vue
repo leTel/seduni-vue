@@ -30,7 +30,7 @@
     >
       <p>
         Le nom "SEDUNI" est celui du <b>peuple établi dans le Valais central</b>
-        durant la période dite de "La Tène".
+        durant la période dite du "La Tène".
       </p>
       <p>
         On en trouve plusieurs traces historiques dont notamment sur la carte
@@ -65,7 +65,7 @@
           L'artisanat
         </router-link>
         : Sur la base des recherches effectuées, des reproductions d'armes,
-        d'armure et de divers objets sont réalisées.
+        d'armures et de divers objets sont réalisées.
       </p>
       <p>
         <router-link :to="{ name: 'fight' }">

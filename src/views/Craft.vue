@@ -30,8 +30,8 @@
       </p>
       <p>
         Mais l'artisanat ne s'arrête pas aux armes et armures, et nous
-        travaillons également à la reproduction de toutes autres
-        <b>objets de la vie quotidienne des Celtes</b>.
+        travaillons également à la reproduction de tout autre
+        <b>objet de la vie quotidienne des Celtes</b>.
       </p>
     </inline-image-card>
 

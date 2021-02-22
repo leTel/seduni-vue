@@ -9,7 +9,7 @@
       <p>
         Nous pratiquons le maniement de
         <b>la lance, de l'épée, du bouclier et de la dague</b> lors du combat au
-        corps à corps. Ces armes sont utilisées lors de duels ou de combat de
+        corps à corps. Ces armes sont utilisées lors de duels ou de combats de
         mélée.
       </p>
     </inline-image-card>
@@ -70,7 +70,7 @@
       :img-src="require('@/assets/img/seduni.jpg')"
     >
       <p>
-        Nos entraînement ont lieux
+        Nos entraînements ont lieu
         <b>tous les mardis et jeudis de 18h à 20h à Sion</b> sur les berges du
         Rhône.
       </p>
