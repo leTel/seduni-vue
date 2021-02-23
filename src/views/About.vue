@@ -58,7 +58,7 @@
         </router-link>
         : La recherche et l’analyse de sources historiques ou contemporaines ont
         pour but de mener à une meilleure compréhension de la culture celte en
-        Europe durant la période dite du "La Tène moyen" (300 à 100 BCE).
+        Europe durant la période dite du "La Tène moyen" (-300 à -100).
       </p>
       <p>
         <router-link :to="{ name: 'craft' }">

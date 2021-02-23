@@ -40,7 +40,7 @@
         <b>
           région des Alpes durant la période dite du "La Tène moyen"
         </b>
-        qui représente une période allant de -300 à -100 BCE.
+        qui représente une période allant de -300 à -100.
       </p>
       <p>
         Bien évidemment, pour pouvoir dessiner une image la plus précise
