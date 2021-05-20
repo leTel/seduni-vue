@@ -4,11 +4,11 @@
       <v-btn
         :elevation="hover ? 8 : 2"
         text
-        href="https://www.facebook.com/seduni.vs/"
+        href="https://www.instagram.com/seduni.vs/"
         target="_blank"
       >
         <slot></slot>
-        <v-icon color="#3b5998" right large>mdi-facebook</v-icon>
+        <v-icon color="#d6249f" class="ml-5" right large>mdi-instagram</v-icon>
       </v-btn>
     </v-hover>
   </div>

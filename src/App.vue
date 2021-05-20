@@ -6,18 +6,34 @@
       <router-view :key="$route.fullPath" />
     </v-main>
 
-    <v-footer app>
-      <span class="text-overline">Tous droits réservés SEDUNI @2021</span>
-      <v-spacer />
-      <v-btn
-        text
-        icon
-        color="#3b5998"
-        href="https://www.facebook.com/SEDUNI.VS"
-        target="_blank"
-      >
-        <v-icon>mdi-facebook</v-icon>
-      </v-btn>
+    <v-footer app padless>
+      <v-row>
+        <v-col>
+          <span class="text-caption small ml-1">
+            © {{ new Date().getFullYear() }} SEDUNI
+          </span>
+        </v-col>
+        <v-col class="text-right text-md-left ">
+          <v-btn
+            text
+            icon
+            color="#3b5998"
+            href="https://www.facebook.com/SEDUNI.VS"
+            target="_blank"
+          >
+            <v-icon>mdi-facebook</v-icon>
+          </v-btn>
+          <v-btn
+            text
+            icon
+            color="#d6249f"
+            href="https://www.instagram.com/seduni.vs/"
+            target="_blank"
+          >
+            <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-footer>
   </v-app>
 </template>

@@ -12,7 +12,14 @@
         />
       </router-link>
 
-      <v-toolbar-title class="mr-5">SEDUNI</v-toolbar-title>
+      <v-toolbar-title class="mr-5">
+        <router-link
+          :to="{ name: 'home' }"
+          style="color: black; text-decoration: none;"
+        >
+          SEDUNI
+        </router-link>
+      </v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" width="300" temporary app>
@@ -69,46 +76,9 @@ export default {
   data() {
     return {
       drawer: false,
-      homeLink: {
-        title: 'Accueil',
-        to: '/',
-        icon: 'mdi-home-variant-outline'
-      },
-      primaryLinks: [
-        {
-          title: 'Histoire',
-          to: 'history',
-          icon: 'mdi-book-open-page-variant-outline'
-        },
-        {
-          title: 'Artisanat',
-          to: 'craft',
-          icon: 'mdi-hand-saw'
-        },
-        { title: 'Combat', to: 'fight', icon: 'mdi-sword-cross' }
-      ],
-      secondaryLinks: [
-        {
-          title: 'Qui sommes-nous ?',
-          to: 'about',
-          icon: 'mdi-account-multiple-outline'
-        },
-        {
-          title: 'Devenir membre',
-          to: 'becoming-member',
-          icon: 'mdi-account-multiple-plus-outline'
-        },
-        {
-          title: 'Bibliothèque',
-          to: 'library',
-          icon: 'mdi-bookshelf'
-        },
-        {
-          title: 'Contact',
-          to: 'contact',
-          icon: 'mdi-at'
-        }
-      ]
+      homeLink: this.$store.getters.homePage,
+      primaryLinks: this.$store.getters.primaryPages,
+      secondaryLinks: this.$store.getters.secondaryPages
     }
   }
 }

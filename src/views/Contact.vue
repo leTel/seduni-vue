@@ -8,10 +8,17 @@
           <v-card-title>Envoyez-nous un message</v-card-title>
           <v-card-text>
             <p>
-              Nous sommes très réactifs sur Facebook. Écrivez-nous depuis notre
-              page pour avoir une réponse rapide !
+              Nous sommes très réactifs sur les réseaux sociaux. Écrivez-nous
+              depuis nos pages pour avoir une réponse rapide !
             </p>
-            <facebook-link>SEDUNI</facebook-link>
+            <v-row>
+              <v-col>
+                <facebook-link>Page facebook</facebook-link>
+              </v-col>
+              <v-col>
+                <instagram-link>Page instagram</instagram-link>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
       </v-col>
@@ -34,8 +41,9 @@
 </template>
 
 <script>
-import FacebookLink from '../components/FacebookLink.vue'
+import FacebookLink from '@/components/FacebookLink.vue'
+import InstagramLink from '@/components/InstagramLink.vue'
 export default {
-  components: { FacebookLink }
+  components: { FacebookLink, InstagramLink }
 }
 </script>

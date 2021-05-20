@@ -70,9 +70,13 @@
       :img-src="require('@/assets/img/seduni.jpg')"
     >
       <p>
-        Nos entraînements ont lieu
-        <b>tous les mardis et jeudis de 18h à 20h à Sion</b> sur les berges du
-        Rhône.
+        Nos entraînements ont lieu <b>deux fois par semaines à Sion</b> sur les
+        berges du Rhônes.
+      </p>
+      <p>
+        Les <b>mardis</b> de 18h à 20h pour l'entraînement au <b>combat</b> au
+        corps à corps et les <b>jeudis</b> de 19h à 20h30 pour l'entraînement
+        aux <b>armes de jet</b>.
       </p>
     </inline-image-card>
   </v-container>

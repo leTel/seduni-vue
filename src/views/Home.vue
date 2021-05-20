@@ -3,10 +3,21 @@
     <page-title title="Association SEDUNI" />
 
     <v-row class="my-3">
-      <v-col class="text-center">
-        <facebook-link>Rejoignez-nous</facebook-link>
+      <v-spacer></v-spacer>
+      <v-col>
+        <v-row>
+          <v-col class="text-center">
+            <facebook-link>Rejoignez-nous</facebook-link>
+          </v-col>
+          <v-col class="text-center">
+            <instagram-link>Suivez-nous</instagram-link>
+          </v-col>
+        </v-row>
       </v-col>
+      <v-spacer></v-spacer>
     </v-row>
+
+    <v-divider />
 
     <v-row class="my-3">
       <v-col v-for="card in primaryCards" :key="card.title" cols="12" md="4">
@@ -34,10 +45,10 @@
 
     <v-divider />
 
-    <v-row class="my-3">
+    <v-row class="my-3 justify-center">
       <v-col v-for="card in secondaryCards" :key="card.title" cols="12" md="4">
         <v-hover v-slot:default="{ hover }">
-          <v-card :to="card.to" :elevation="hover ? 16 : 2">
+          <v-card :to="card.to" :elevation="hover ? 12 : 2">
             <v-card-title v-text="card.title"></v-card-title>
 
             <v-card-actions>
@@ -56,42 +67,14 @@
 
 <script>
 import FacebookLink from '@/components/FacebookLink.vue'
+import InstagramLink from '@/components/InstagramLink.vue'
 
 export default {
-  components: { FacebookLink },
+  components: { FacebookLink, InstagramLink },
   data() {
     return {
-      primaryCards: [
-        {
-          title: 'Histoire',
-          to: 'history',
-          src: require('@/assets/img/history_card.jpg')
-        },
-        {
-          title: 'Artisanat',
-          to: 'craft',
-          src: require('@/assets/img/craft_card.jpg')
-        },
-        {
-          title: 'Combat',
-          to: 'fight',
-          src: require('@/assets/img/fight_card.jpg')
-        }
-      ],
-      secondaryCards: [
-        {
-          title: 'Qui sommes-nous ?',
-          to: 'about'
-        },
-        {
-          title: 'Devenir membre',
-          to: 'becoming-member'
-        },
-        {
-          title: 'Nous contacter',
-          to: 'contact'
-        }
-      ]
+      primaryCards: this.$store.getters.primaryPages,
+      secondaryCards: this.$store.getters.secondaryPages
     }
   }
 }
